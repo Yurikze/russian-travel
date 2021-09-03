@@ -29,3 +29,7 @@
 @import url("../blocks/cover/cover.css");
 @import url("../blocks/cover/__title/cever__title.css");
 @import url("../blocks/cover/__subtitle/cover__subtitle.css");
+@import url("../blocks/footer/footer.css");
+@import url("../blocks/footer/__nav-list/footer__nav-list.css");
+@import url("../blocks/footer/__link/footer__link.css");
+@import url("../blocks/footer/__coptright/footer__coptright.css");
