@@ -1,9 +1,19 @@
 .header {
-  max-width: 1184px;
   width: 100%;
   display: flex;
   justify-content: space-between;
   padding: 28px 48px;
   box-sizing: border-box;
   align-items: center;
+}
+
+@media (max-width: 1023px) {
+  .header {
+    padding: 28px 24px;
+  }
+}
+@media (max-width: 767px) {
+  .header {
+    padding: 16px 16px 24px;
+  }
 }

@@ -1,7 +1,7 @@
 .cover {
   max-width: 1184px;
   width: 100%;
-  padding: 245px 312px;
+  padding: 20% 26%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -28,4 +28,11 @@
 .cover:hover::before {
   opacity: 0.8;
   cursor: pointer;
+}
+
+@media (max-width: 767px) {
+  .cover {
+    padding: 33px 16px;
+    margin: 32px 0;
+  }
 }
