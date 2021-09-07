@@ -4,6 +4,11 @@
   line-height: 1.17;
   margin-right: 18px;
   text-decoration: none;
+  transition: opacity .2s ease;
+}
+
+.header__lang-link:hover {
+  opacity: .8;
 }
 
 .header__lang-link:last-of-type {
