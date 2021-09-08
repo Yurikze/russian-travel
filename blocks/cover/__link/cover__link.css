@@ -9,7 +9,13 @@
   z-index: 3;
   box-sizing: border-box;
   min-height: 740px;
+  transition: opacity 0.5s ease;
 }
+
+.cover__link:hover {
+  opacity: .8;
+}
+
 
 @media (max-width: 1279px) {
   .cover__link {
